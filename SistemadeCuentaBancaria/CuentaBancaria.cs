@@ -32,7 +32,7 @@ namespace SistemadeCuentaBancaria
         public void Depositar(double monto)
         {
             if (monto > 0)
-                _saldo = monto;
+                _saldo += monto;
             else
                 Console.WriteLine("Monto inválido.");
         }
