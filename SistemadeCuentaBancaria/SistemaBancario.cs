@@ -1,4 +1,4 @@
-﻿
+﻿//.
 namespace SistemadeCuentaBancaria
 {
     public class SistemaBancario
